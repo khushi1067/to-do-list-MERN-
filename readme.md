@@ -121,28 +121,28 @@ Go to the root directory:
 npm create vite@latest
 ```
 
-####Add project Name
+Add project Name
 
-#####Choose languages
+Choose languages
 
-####Install dependencies:
+##### Install dependencies:
 
 ```bash
 npm install
 ```
-####axios --https response library
+#### axios --https response library
 
 ```bash
 npm install axios react-icons
 ```
 
-######**Run the react application**
+###### **Run the react application**
 
 ```bash
 npm run dev
 ```
 
-####Delete unwanted things from application
+#### Delete unwanted things from application
 
 ####**Connect to MongoDB compass**
 
@@ -151,7 +151,7 @@ npm run dev
 
 Go to the root directory:
 
-#####Create folder for Backend 
+##### Create folder for Backend 
 
 ```bash
 mkdir Server
@@ -168,21 +168,21 @@ npm init
 npm -y
 ```
 
-####Install dependencies:
+#### Install dependencies:
 
 ```bash
 npm install express mongoose cors nodemon
 ```
-######Create index.js file 
+###### Create index.js file 
 
-#####follow to package to json from Server
+##### follow to package to json from Server
 
-######add "nodemon index.js"
+###### add "nodemon index.js"
 
-#####(after "test" in "Scripts")
+##### (after "test" in "Scripts")
 
 
-####**Run Server**
+# **Run Server**
 
 ```bash
 node index.js

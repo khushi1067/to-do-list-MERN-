@@ -77,7 +77,7 @@ cd client
 npm start
 ```
 
-Visit the frontend by going to `http://localhost:3000` in your browser.
+Visit the frontend by going to `http://localhost:3005` in your browser.
 
 ## API Endpoints
 - **GET `/get`**: Retrieve all tasks.
@@ -111,11 +111,79 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 This `README.md` should help other developers quickly understand your project, how to set it up, and what technologies it uses. You can customize it further based on any additional information you want to include. 
 
-Once you're ready, you can add this file to your Git repository and push it to GitHub:
+
+#### Project Starter Guide
+
+##### Frontend:
+
+Go to the root directory:
+```bash
+npm create vite@latest
+```
+
+#Add project Name
+
+##Choose languages
+
+#Install dependencies:
 
 ```bash
-git add README.md
-git commit -m "Add README.md"
-git push origin main
+npm install
 ```
-`
+#axios --https response library
+
+```bash
+npm install axios react-icons
+```
+
+#**Run the react application**
+
+```bash
+npm run dev
+```
+
+#######Delete unwanted things from application
+
+##**Connect to MongoDB compass**
+
+
+##### Backend:
+
+Go to the root directory:
+
+##Create folder for Backend 
+
+```bash
+mkdir Server
+```
+```bash
+cd Server
+```
+
+```bash
+npm init
+```
+
+```bash
+npm -y
+```
+
+#Install dependencies:
+
+```bash
+npm install express mongoose cors nodemon
+```
+#Create index.js file 
+
+#follow to package to json from Server
+
+##add "nodemon index.js"
+
+###(after "test" in "Scripts")
+
+
+#**Run Server**
+
+```bash
+node index.js
+```

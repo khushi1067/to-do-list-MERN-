@@ -1,0 +1,11 @@
+/* styles.css */
+body {
+    background-image: url('public/images/background.svg');  /* Path to the SVG in the public folder */
+    background-size: cover;  /* Makes the background image cover the entire page */
+    background-position: center;  /* Centers the background */
+    background-attachment: fixed;  /* Keeps the background fixed while scrolling */
+    height: 100vh;  /* Makes sure the page covers the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

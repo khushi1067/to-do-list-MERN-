@@ -144,14 +144,14 @@ npm run dev
 
 #### Delete unwanted things from application
 
-####**Connect to MongoDB compass**
+#### **Connect to MongoDB compass**
 
 
 #### Backend:
 
 Go to the root directory:
 
-##### Create folder for Backend 
+##### **Create folder for Backend** 
 
 ```bash
 mkdir Server
@@ -177,7 +177,7 @@ npm install express mongoose cors nodemon
 
 ##### follow to package to json from Server
 
-###### add "nodemon index.js"
+##### add "nodemon index.js"
 
 ##### (after "test" in "Scripts")
 

@@ -74,7 +74,7 @@ function Home() {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3005/get')
+      .get('https://to-do-list-mern-one.vercel.app/get')
       .then((result) => setTodos(result.data))
       .catch((err) => console.log(err));
   }, []);
@@ -86,7 +86,7 @@ function Home() {
     setTodos(updatedTodos);
 
     axios
-      .put('http://localhost:3005/update/' + id)
+      .put('https://to-do-list-mern-one.vercel.app/update/' + id)
       .then((result) => console.log(result))
       .catch((err) => console.log(err));
   };
@@ -96,7 +96,7 @@ function Home() {
     setTodos(updatedTodos);
 
     axios
-      .delete('http://localhost:3005/delete/' + id)
+      .delete('https://to-do-list-mern-one.vercel.app/delete/' + id)
       .then((result) => {
         console.log('Task deleted:', result);
       })

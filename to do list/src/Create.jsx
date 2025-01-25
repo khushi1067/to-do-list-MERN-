@@ -45,7 +45,7 @@ function Create({ addNewTask }) {
   const handleAdd = () => {
     if (task.trim() !== '') {
       axios
-        .post('http://localhost:3005/add', { task })
+        .post('https://to-do-list-mern-one.vercel.app/add', { task })
         .then((result) => {
           addNewTask(result.data); // Pass the newly added task to the parent component
           setTask(''); // Clear input field after adding task
